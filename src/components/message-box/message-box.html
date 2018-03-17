@@ -1,0 +1,8 @@
+
+<div class="text" [ngClass]="{'sender-background' :isFromSender}">
+  <p text-wrap>{{message.text}}</p>
+  <p class="timestamp">
+    {{message.timestamp |date:'dd/MM/y H:mm'}}
+
+  </p>
+</div>

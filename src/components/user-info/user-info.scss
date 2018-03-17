@@ -1,0 +1,29 @@
+user-info {
+    p{
+        margin-top: -10px;
+    }
+    .round{
+      
+            /* make a square container */
+            width: 150px;
+            height: 150px;
+
+            /* fill the container, preserving aspect ratio, and cropping to fit */
+            background-size: cover;
+
+            /* center the image vertically and horizontally */
+            background-position: top center;
+
+            margin: auto;
+            /* round the edges to a circle with border radius 1/2 container size */
+            border-radius: 50%;
+    }
+    .custom-background{
+        background-color: #333333;
+    }
+    ion-avatar{
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+   
+}
